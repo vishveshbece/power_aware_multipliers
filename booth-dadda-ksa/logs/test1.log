@@ -1,0 +1,78 @@
+xrun(64): 20.09-s012: (c) Copyright 1995-2021 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	20.09-s012: Started on Mar 10, 2026 at 23:51:39 EDT
+xrun
+	rtl/booth_encoder.sv
+	rtl/dadda_reduction_tree.sv
+	rtl/final_adder.sv
+	rtl/multiplier_top.sv
+	rtl/partial_product_generator.sv
+	tb/tb_top.sv
+Recompiling... reason: file './tb/tb_top.sv' is newer than expected.
+	expected: Tue Mar 10 23:43:48 2026
+	actual:   Tue Mar 10 23:51:31 2026
+file: tb/tb_top.sv
+	module worklib.tb_top:sv
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		tb_top
+xmelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.tb_top:sv <0x1998b942>
+			streams:  12, words: 15145
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                13       6
+		Registers:             211      72
+		Scalar wires:          912       -
+		Vectored wires:         97       -
+		Always blocks:          19       5
+		Initial blocks:          2       2
+		Cont. assignments:     899      37
+		Pseudo assignments:     61      19
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.tb_top:sv
+Loading snapshot worklib.tb_top:sv .................... Done
+xmsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+xcelium> source /home/install/XCELIUM2009/tools/xcelium/files/xmsimrc
+xcelium> run
+Block 19: PASS=393216, FAIL=0
+Block 20: PASS=393216, FAIL=0
+Block 21: PASS=393216, FAIL=0
+Block 22: PASS=393216, FAIL=0
+Block 23: PASS=393216, FAIL=0
+Block 24: PASS=393216, FAIL=0
+Block 25: PASS=393216, FAIL=0
+Block 26: PASS=393216, FAIL=0
+Block 27: PASS=393216, FAIL=0
+Block 28: PASS=393216, FAIL=0
+Block 29: PASS=393216, FAIL=0
+Block 30: PASS=393216, FAIL=0
+Block 31: PASS=393216, FAIL=0
+Block 32: PASS=393216, FAIL=0
+Block 33: PASS=393216, FAIL=0
+Block 34: PASS=393216, FAIL=0
+Block 35: PASS=393216, FAIL=0
+Block 36: PASS=393216, FAIL=0
+Block 37: PASS=393216, FAIL=0
+Block 38: PASS=393216, FAIL=0
+Block 39: PASS=393216, FAIL=0
+Block 40: PASS=393216, FAIL=0
+Block 41: PASS=393216, FAIL=0
+Block 42: PASS=393216, FAIL=0
+Block 43: PASS=393216, FAIL=0
+Block 44: PASS=393216, FAIL=0
+Block 45: PASS=393216, FAIL=0
+Block 46: PASS=393216, FAIL=0
+Block 47: PASS=393216, FAIL=0
+Block 48: PASS=393216, FAIL=0
+Block 49: PASS=393216, FAIL=0
+All blocks done. See main_log.txt for summary.
+Simulation complete via $finish(1) at time 365690925 NS + 0
+./tb/tb_top.sv:121         $finish;
+xcelium> exit
+TOOL:	xrun(64)	20.09-s012: Exiting on Mar 10, 2026 at 23:56:30 EDT  (total: 00:04:51)

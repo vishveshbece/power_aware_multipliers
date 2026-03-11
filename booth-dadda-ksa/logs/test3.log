@@ -1,0 +1,247 @@
+xrun(64): 20.09-s012: (c) Copyright 1995-2021 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	20.09-s012: Started on Mar 11, 2026 at 00:15:08 EDT
+xrun
+	rtl/booth_encoder.sv
+	rtl/dadda_reduction_tree.sv
+	rtl/final_adder.sv
+	rtl/multiplier_top.sv
+	rtl/partial_product_generator.sv
+	tb/tb_top.sv
+Recompiling... reason: file './tb/tb_top.sv' is newer than expected.
+	expected: Tue Mar 10 23:58:15 2026
+	actual:   Wed Mar 11 00:15:03 2026
+file: tb/tb_top.sv
+	module worklib.tb_top:sv
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		tb_top
+xmelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.tb_top:sv <0x1998b942>
+			streams:  12, words: 15151
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                13       6
+		Registers:             211      72
+		Scalar wires:          912       -
+		Vectored wires:         97       -
+		Always blocks:          19       5
+		Initial blocks:          2       2
+		Cont. assignments:     899      37
+		Pseudo assignments:     61      19
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.tb_top:sv
+Loading snapshot worklib.tb_top:sv .................... Done
+xmsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+xcelium> source /home/install/XCELIUM2009/tools/xcelium/files/xmsimrc
+xcelium> run
+Block 50: PASS=393216, FAIL=0
+Block 51: PASS=393216, FAIL=0
+Block 52: PASS=393216, FAIL=0
+Block 53: PASS=393216, FAIL=0
+Block 54: PASS=393216, FAIL=0
+Block 55: PASS=393216, FAIL=0
+Block 56: PASS=393216, FAIL=0
+Block 57: PASS=393216, FAIL=0
+Block 58: PASS=393216, FAIL=0
+Block 59: PASS=393216, FAIL=0
+Block 60: PASS=393216, FAIL=0
+Block 61: PASS=393216, FAIL=0
+Block 62: PASS=393216, FAIL=0
+Block 63: PASS=393216, FAIL=0
+Block 64: PASS=393216, FAIL=0
+Block 65: PASS=393216, FAIL=0
+Block 66: PASS=393216, FAIL=0
+Block 67: PASS=393216, FAIL=0
+Block 68: PASS=393216, FAIL=0
+Block 69: PASS=393216, FAIL=0
+Block 70: PASS=393216, FAIL=0
+Block 71: PASS=393216, FAIL=0
+Block 72: PASS=393216, FAIL=0
+Block 73: PASS=393216, FAIL=0
+Block 74: PASS=393216, FAIL=0
+Block 75: PASS=393216, FAIL=0
+Block 76: PASS=393216, FAIL=0
+Block 77: PASS=393216, FAIL=0
+Block 78: PASS=393216, FAIL=0
+Block 79: PASS=393216, FAIL=0
+Block 80: PASS=393216, FAIL=0
+Block 81: PASS=393216, FAIL=0
+Block 82: PASS=393216, FAIL=0
+Block 83: PASS=393216, FAIL=0
+Block 84: PASS=393216, FAIL=0
+Block 85: PASS=393216, FAIL=0
+Block 86: PASS=393216, FAIL=0
+Block 87: PASS=393216, FAIL=0
+Block 88: PASS=393216, FAIL=0
+Block 89: PASS=393216, FAIL=0
+Block 90: PASS=393216, FAIL=0
+Block 91: PASS=393216, FAIL=0
+Block 92: PASS=393216, FAIL=0
+Block 93: PASS=393216, FAIL=0
+Block 94: PASS=393216, FAIL=0
+Block 95: PASS=393216, FAIL=0
+Block 96: PASS=393216, FAIL=0
+Block 97: PASS=393216, FAIL=0
+Block 98: PASS=393216, FAIL=0
+Block 99: PASS=393216, FAIL=0
+Block 100: PASS=393216, FAIL=0
+Block 101: PASS=393216, FAIL=0
+Block 102: PASS=393216, FAIL=0
+Block 103: PASS=393216, FAIL=0
+Block 104: PASS=393216, FAIL=0
+Block 105: PASS=393216, FAIL=0
+Block 106: PASS=393216, FAIL=0
+Block 107: PASS=393216, FAIL=0
+Block 108: PASS=393216, FAIL=0
+Block 109: PASS=393216, FAIL=0
+Block 110: PASS=393216, FAIL=0
+Block 111: PASS=393216, FAIL=0
+Block 112: PASS=393216, FAIL=0
+Block 113: PASS=393216, FAIL=0
+Block 114: PASS=393216, FAIL=0
+Block 115: PASS=393216, FAIL=0
+Block 116: PASS=393216, FAIL=0
+Block 117: PASS=393216, FAIL=0
+Block 118: PASS=393216, FAIL=0
+Block 119: PASS=393216, FAIL=0
+Block 120: PASS=393216, FAIL=0
+Block 121: PASS=393216, FAIL=0
+Block 122: PASS=393216, FAIL=0
+Block 123: PASS=393216, FAIL=0
+Block 124: PASS=393216, FAIL=0
+Block 125: PASS=393216, FAIL=0
+Block 126: PASS=393216, FAIL=0
+Block 127: PASS=393216, FAIL=0
+Block 128: PASS=393216, FAIL=0
+Block 129: PASS=393216, FAIL=0
+Block 130: PASS=393216, FAIL=0
+Block 131: PASS=393216, FAIL=0
+Block 132: PASS=393216, FAIL=0
+Block 133: PASS=393216, FAIL=0
+Block 134: PASS=393216, FAIL=0
+Block 135: PASS=393216, FAIL=0
+Block 136: PASS=393216, FAIL=0
+Block 137: PASS=393216, FAIL=0
+Block 138: PASS=393216, FAIL=0
+Block 139: PASS=393216, FAIL=0
+Block 140: PASS=393216, FAIL=0
+Block 141: PASS=393216, FAIL=0
+Block 142: PASS=393216, FAIL=0
+Block 143: PASS=393216, FAIL=0
+Block 144: PASS=393216, FAIL=0
+Block 145: PASS=393216, FAIL=0
+Block 146: PASS=393216, FAIL=0
+Block 147: PASS=393216, FAIL=0
+Block 148: PASS=393216, FAIL=0
+Block 149: PASS=393216, FAIL=0
+Block 150: PASS=393216, FAIL=0
+Block 151: PASS=393216, FAIL=0
+Block 152: PASS=393216, FAIL=0
+Block 153: PASS=393216, FAIL=0
+Block 154: PASS=393216, FAIL=0
+Block 155: PASS=393216, FAIL=0
+Block 156: PASS=393216, FAIL=0
+Block 157: PASS=393216, FAIL=0
+Block 158: PASS=393216, FAIL=0
+Block 159: PASS=393216, FAIL=0
+Block 160: PASS=393216, FAIL=0
+Block 161: PASS=393216, FAIL=0
+Block 162: PASS=393216, FAIL=0
+Block 163: PASS=393216, FAIL=0
+Block 164: PASS=393216, FAIL=0
+Block 165: PASS=393216, FAIL=0
+Block 166: PASS=393216, FAIL=0
+Block 167: PASS=393216, FAIL=0
+Block 168: PASS=393216, FAIL=0
+Block 169: PASS=393216, FAIL=0
+Block 170: PASS=393216, FAIL=0
+Block 171: PASS=393216, FAIL=0
+Block 172: PASS=393216, FAIL=0
+Block 173: PASS=393216, FAIL=0
+Block 174: PASS=393216, FAIL=0
+Block 175: PASS=393216, FAIL=0
+Block 176: PASS=393216, FAIL=0
+Block 177: PASS=393216, FAIL=0
+Block 178: PASS=393216, FAIL=0
+Block 179: PASS=393216, FAIL=0
+Block 180: PASS=393216, FAIL=0
+Block 181: PASS=393216, FAIL=0
+Block 182: PASS=393216, FAIL=0
+Block 183: PASS=393216, FAIL=0
+Block 184: PASS=393216, FAIL=0
+Block 185: PASS=393216, FAIL=0
+Block 186: PASS=393216, FAIL=0
+Block 187: PASS=393216, FAIL=0
+Block 188: PASS=393216, FAIL=0
+Block 189: PASS=393216, FAIL=0
+Block 190: PASS=393216, FAIL=0
+Block 191: PASS=393216, FAIL=0
+Block 192: PASS=393216, FAIL=0
+Block 193: PASS=393216, FAIL=0
+Block 194: PASS=393216, FAIL=0
+Block 195: PASS=393216, FAIL=0
+Block 196: PASS=393216, FAIL=0
+Block 197: PASS=393216, FAIL=0
+Block 198: PASS=393216, FAIL=0
+Block 199: PASS=393216, FAIL=0
+Block 200: PASS=393216, FAIL=0
+Block 201: PASS=393216, FAIL=0
+Block 202: PASS=393216, FAIL=0
+Block 203: PASS=393216, FAIL=0
+Block 204: PASS=393216, FAIL=0
+Block 205: PASS=393216, FAIL=0
+Block 206: PASS=393216, FAIL=0
+Block 207: PASS=393216, FAIL=0
+Block 208: PASS=393216, FAIL=0
+Block 209: PASS=393216, FAIL=0
+Block 210: PASS=393216, FAIL=0
+Block 211: PASS=393216, FAIL=0
+Block 212: PASS=393216, FAIL=0
+Block 213: PASS=393216, FAIL=0
+Block 214: PASS=393216, FAIL=0
+Block 215: PASS=393216, FAIL=0
+Block 216: PASS=393216, FAIL=0
+Block 217: PASS=393216, FAIL=0
+Block 218: PASS=393216, FAIL=0
+Block 219: PASS=393216, FAIL=0
+Block 220: PASS=393216, FAIL=0
+Block 221: PASS=393216, FAIL=0
+Block 222: PASS=393216, FAIL=0
+Block 223: PASS=393216, FAIL=0
+Block 224: PASS=393216, FAIL=0
+Block 225: PASS=393216, FAIL=0
+Block 226: PASS=393216, FAIL=0
+Block 227: PASS=393216, FAIL=0
+Block 228: PASS=393216, FAIL=0
+Block 229: PASS=393216, FAIL=0
+Block 230: PASS=393216, FAIL=0
+Block 231: PASS=393216, FAIL=0
+Block 232: PASS=393216, FAIL=0
+Block 233: PASS=393216, FAIL=0
+Block 234: PASS=393216, FAIL=0
+Block 235: PASS=393216, FAIL=0
+Block 236: PASS=393216, FAIL=0
+Block 237: PASS=393216, FAIL=0
+Block 238: PASS=393216, FAIL=0
+Block 239: PASS=393216, FAIL=0
+Block 240: PASS=393216, FAIL=0
+Block 241: PASS=393216, FAIL=0
+Block 242: PASS=393216, FAIL=0
+Block 243: PASS=393216, FAIL=0
+Block 244: PASS=393216, FAIL=0
+Block 245: PASS=393216, FAIL=0
+Block 246: PASS=393216, FAIL=0
+Block 247: PASS=393216, FAIL=0
+Block 248: PASS=393216, FAIL=0
+Block 249: PASS=393216, FAIL=0
+All blocks done. See main_log.txt for summary.
+Simulation complete via $finish(1) at time 2359296045 NS + 0
+./tb/tb_top.sv:121         $finish;
+xcelium> exit
+TOOL:	xrun(64)	20.09-s012: Exiting on Mar 11, 2026 at 00:47:29 EDT  (total: 00:32:21)

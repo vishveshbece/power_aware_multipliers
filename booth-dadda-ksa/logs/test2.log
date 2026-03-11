@@ -1,0 +1,127 @@
+xrun(64): 20.09-s012: (c) Copyright 1995-2021 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	20.09-s012: Started on Mar 10, 2026 at 23:58:22 EDT
+xrun
+	rtl/booth_encoder.sv
+	rtl/dadda_reduction_tree.sv
+	rtl/final_adder.sv
+	rtl/multiplier_top.sv
+	rtl/partial_product_generator.sv
+	tb/tb_top.sv
+Recompiling... reason: file './tb/tb_top.sv' is newer than expected.
+	expected: Tue Mar 10 23:51:31 2026
+	actual:   Tue Mar 10 23:58:15 2026
+file: tb/tb_top.sv
+	module worklib.tb_top:sv
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		tb_top
+xmelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.tb_top:sv <0x1998b942>
+			streams:  12, words: 15154
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                13       6
+		Registers:             211      72
+		Scalar wires:          912       -
+		Vectored wires:         97       -
+		Always blocks:          19       5
+		Initial blocks:          2       2
+		Cont. assignments:     899      37
+		Pseudo assignments:     61      19
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.tb_top:sv
+Loading snapshot worklib.tb_top:sv .................... Done
+xmsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+xcelium> source /home/install/XCELIUM2009/tools/xcelium/files/xmsimrc
+xcelium> run
+Block 9900: PASS=393216, FAIL=0
+Block 9901: PASS=393216, FAIL=0
+Block 9902: PASS=393216, FAIL=0
+Block 9903: PASS=393216, FAIL=0
+Block 9904: PASS=393216, FAIL=0
+Block 9905: PASS=393216, FAIL=0
+Block 9906: PASS=393216, FAIL=0
+Block 9907: PASS=393216, FAIL=0
+Block 9908: PASS=393216, FAIL=0
+Block 9909: PASS=393216, FAIL=0
+Block 9910: PASS=393216, FAIL=0
+Block 9911: PASS=393216, FAIL=0
+Block 9912: PASS=393216, FAIL=0
+Block 9913: PASS=393216, FAIL=0
+Block 9914: PASS=393216, FAIL=0
+Block 9915: PASS=393216, FAIL=0
+Block 9916: PASS=393216, FAIL=0
+Block 9917: PASS=393216, FAIL=0
+Block 9918: PASS=393216, FAIL=0
+Block 9919: PASS=393216, FAIL=0
+Block 9920: PASS=393216, FAIL=0
+Block 9921: PASS=393216, FAIL=0
+Block 9922: PASS=393216, FAIL=0
+Block 9923: PASS=393216, FAIL=0
+Block 9924: PASS=393216, FAIL=0
+Block 9925: PASS=393216, FAIL=0
+Block 9926: PASS=393216, FAIL=0
+Block 9927: PASS=393216, FAIL=0
+Block 9928: PASS=393216, FAIL=0
+Block 9929: PASS=393216, FAIL=0
+Block 9930: PASS=393216, FAIL=0
+Block 9931: PASS=393216, FAIL=0
+Block 9932: PASS=393216, FAIL=0
+Block 9933: PASS=393216, FAIL=0
+Block 9934: PASS=393216, FAIL=0
+Block 9935: PASS=393216, FAIL=0
+Block 9936: PASS=393216, FAIL=0
+Block 9937: PASS=393216, FAIL=0
+Block 9938: PASS=393216, FAIL=0
+Block 9939: PASS=393216, FAIL=0
+Block 9940: PASS=393216, FAIL=0
+Block 9941: PASS=393216, FAIL=0
+Block 9942: PASS=393216, FAIL=0
+Block 9943: PASS=393216, FAIL=0
+Block 9944: PASS=393216, FAIL=0
+Block 9945: PASS=393216, FAIL=0
+Block 9946: PASS=393216, FAIL=0
+Block 9947: PASS=393216, FAIL=0
+Block 9948: PASS=393216, FAIL=0
+Block 9949: PASS=393216, FAIL=0
+Block 9950: PASS=393216, FAIL=0
+Block 9951: PASS=393216, FAIL=0
+Block 9952: PASS=393216, FAIL=0
+Block 9953: PASS=393216, FAIL=0
+Block 9954: PASS=393216, FAIL=0
+Block 9955: PASS=393216, FAIL=0
+Block 9956: PASS=393216, FAIL=0
+Block 9957: PASS=393216, FAIL=0
+Block 9958: PASS=393216, FAIL=0
+Block 9959: PASS=393216, FAIL=0
+Block 9960: PASS=393216, FAIL=0
+Block 9961: PASS=393216, FAIL=0
+Block 9962: PASS=393216, FAIL=0
+Block 9963: PASS=393216, FAIL=0
+Block 9964: PASS=393216, FAIL=0
+Block 9965: PASS=393216, FAIL=0
+Block 9966: PASS=393216, FAIL=0
+Block 9967: PASS=393216, FAIL=0
+Block 9968: PASS=393216, FAIL=0
+Block 9969: PASS=393216, FAIL=0
+Block 9970: PASS=393216, FAIL=0
+Block 9971: PASS=393216, FAIL=0
+Block 9972: PASS=393216, FAIL=0
+Block 9973: PASS=393216, FAIL=0
+Block 9974: PASS=393216, FAIL=0
+Block 9975: PASS=393216, FAIL=0
+Block 9976: PASS=393216, FAIL=0
+Block 9977: PASS=393216, FAIL=0
+Block 9978: PASS=393216, FAIL=0
+Block 9979: PASS=393216, FAIL=0
+All blocks done. See main_log.txt for summary.
+Simulation complete via $finish(1) at time 943718445 NS + 0
+./tb/tb_top.sv:121         $finish;
+xcelium> exit
+TOOL:	xrun(64)	20.09-s012: Exiting on Mar 11, 2026 at 00:11:07 EDT  (total: 00:12:45)
