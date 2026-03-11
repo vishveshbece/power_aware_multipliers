@@ -1,0 +1,6 @@
+create_clock -name clk -period 5.0 [get_ports clk]
+set_clock_uncertainity 0.2 [get_clocks clk]
+set_input_delay 1.0 -clock clk [get_ports {operand_a operand_b valid_in rst_in}]
+set_output_delay 1.0 -clock clk [get_ports{product ready_out valid_out}]
+set_max_transition 0.5 [current_design]
+set_max_fanout 20 [current_design]
